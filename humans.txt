@@ -1,0 +1,28 @@
+                            
+/* TEAM */
+
+                            
+Bowling is Life: Stepan Gevorgyan, Jovin Aganon, Victor Ren
+                            
+Location: Las Vegas, Nevada. USA
+
+/* THANKS */
+
+							
+Forked from Senzung: http://codepen.io/senzung/pen/kLhbi/
+
+                            
+/* SITE */
+
+                            
+Last update: YYYY/MM/DD 
+
+                            
+Standards: HTML5, CSS3, Javascript, AJAX
+
+                            
+Components: Modernizr, jQuery
+
+                            
+Software: Brackets Text Editor, Google Chrome, Compressor.io, Codepen, Github
+   
