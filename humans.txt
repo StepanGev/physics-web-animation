@@ -41,7 +41,7 @@ Forked from Senzung: http://codepen.io/senzung/pen/kLhbi/
 /* SITE */
 
                             
-Last update: YYYY/MM/DD 
+Last update: 2015/03/11
 
                             
 Standards: HTML5, CSS3, Javascript, AJAX
