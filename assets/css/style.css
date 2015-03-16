@@ -23,8 +23,10 @@ body{
 }
 #container_nav {
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     height: 110px;
+    width: 100%;
+    border-bottom: 2px black solid;
 }
 
 footer {
@@ -38,7 +40,7 @@ footer {
 #copyright {}
 
 .features-change {
-    color: black;
+    color: white;
 }
 
 p {
@@ -52,8 +54,8 @@ p {
     position: fixed;
     bottom: 0;
     left: 0;
-    background: white;
-    opacity: 0.8;
+    background: black;
+    opacity: 0.9;
 }
 
 nav {
@@ -61,7 +63,7 @@ nav {
     font-size: 1.6em;
     float: right;
     margin-right: 4%;
-    width: 80%;
+    width: 40%;
 
 }
 
@@ -75,20 +77,22 @@ a:-webkit-any-link {
     font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;;
     font-size: 2.25em;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #welcome_p {
-    color: rgba(0, 94, 255, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
 hr {
     width: 27%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
+    color: black;
+    border: 3px solid black;
 }
 
 span {
-    color: white;
+    color: black;
     font-family: 'oxygenregular';
 }
 
@@ -108,7 +112,10 @@ span {
     padding-bottom: 1%;
     text-decoration: none;
     font-size: 1.3em;
-    border: solid white 3px;
+    border: solid black 3px;
     border-radius: 8px;
     transition: 0.7s ease;
+}
+img{
+    margin-left: 2%;
 }
