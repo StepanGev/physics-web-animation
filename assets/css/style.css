@@ -23,10 +23,10 @@ body{
 }
 #container_nav {
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.95;
     height: 110px;
     width: 100%;
-    border-bottom: 2px black solid;
+    border-bottom: 3px black solid;
 }
 
 footer {
@@ -74,7 +74,7 @@ a:-webkit-any-link {
 }
 
 #container_head {
-    font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;;
+    font-family: 'oxygenregular';
     font-size: 2.25em;
     text-align: center;
     color: black;
@@ -118,4 +118,16 @@ span {
 }
 img{
     margin-left: 2%;
+}
+#dev_link:hover{
+    background-color: white;
+    border-color: white;
+}
+span:hover{
+    color: blue;
+}
+#container_subhead-welcome{
+    background-color: white;
+    padding-bottom: 2%;
+    opacity: 0.9;
 }
