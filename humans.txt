@@ -8,13 +8,13 @@ Location: Las Vegas, Nevada. USA
 /* THANKS */
 
 							
-Forked from Senzung: http://codepen.io/senzung/pen/kLhbi/
+Responsive Nav
 
                             
 /* SITE */
 
                             
-Last update: YYYY/MM/DD 
+Last update: 2015/03/16 
 
                             
 Standards: HTML5, CSS3, Javascript, AJAX
@@ -23,32 +23,5 @@ Standards: HTML5, CSS3, Javascript, AJAX
 Components: Modernizr, jQuery
 
                             
-Software: Brackets Text Editor, Google Chrome, Compressor.io, Codepen, Github
+Software: Brackets Text Editor, Google Chrome, Compressor.io, Github
                             
-/* TEAM */
-
-                            
-Bowling is Life: Stepan Gevorgyan, Jovin Aganon, Victor Ren
-                            
-Location: Las Vegas, Nevada. USA
-
-/* THANKS */
-
-							
-Forked from Senzung: http://codepen.io/senzung/pen/kLhbi/
-
-                            
-/* SITE */
-
-                            
-Last update: 2015/03/11
-
-                            
-Standards: HTML5, CSS3, Javascript, AJAX
-
-                            
-Components: Modernizr, jQuery
-
-                            
-Software: Brackets Text Editor, Google Chrome, Compressor.io, Codepen, Github
-   

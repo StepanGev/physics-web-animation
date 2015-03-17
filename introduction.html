@@ -1,18 +1,21 @@
 <html>
 
 <head>
-    <title>Bowling is Life</title>
-    <link rel="stylesheet" href="assets/css/hover.css" media="all">
+    <title>Bowling for Physics</title>
+    <link rel="stylesheet" href="assets/css/hover.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive-nav.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+       <link rel="stylesheet" href="assets/css/responsive-nav.css">
+       <link rel="stylesheet" href="assets/css/responsive.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
 </head>
 
 <body>
-    <div id="container_nav">
+    <div id="container_nav" class="nav-collapse">
         <a href="index.html"><img src="assets/img/logo_png.png" alt="Logo" id="logo" width="100px" height="100px">
         </a>
-        <nav class="nav-collapse">
+        <nav>
             <ul>
                 <a href="introduction.html" class="button hvr-underline-from-center">Introduction
                 </a>
@@ -23,36 +26,54 @@
             </ul>
         </nav>
     </div>
-
-    <h1>What we did</h1>
+    <h1 class="dev_h1">What we did</h1>
+       <div class="left_words">
     <p>Recently web and video game students came together with the the physics classrooms to create a website and animations based on physics in the real world. Our group decided to take on the challenge of finding the physics involved in one of the favorite activities for all ages - bowling.</p>
+    </div>
 
-    <h1>What it shows</h1>
-    <p>Bowling puts Newton’s first three laws into action as you roll the ball down the lane, and watch it as it strike the pins. A lot of things can be derived from just a game of bowling if you understand Newton's laws.</p>
+    <h1 class="dev_h1">What it shows</h1>
+    <div class="left_words">
+    <p>Bowling puts Newton's first three laws into action as you roll the ball down the lane, and watch it as it strike the pins. A lot of things can be derived from just a game of bowling if you understand Newton's laws.</p>
+    </div>
 
-    <h1>What's happening</h1>
-    <p>As you roll the ball down the lane, Newton’s first law will be applied to the ball. As the ball is rolling down the lane, and striking the pins, you will see Newton’s second and Third law in action. Depending on how much the bowling ball weighs, and the speed it is going, you can figure out the force using some simple equations. All this will be introduced in detail on the next page.</p>
 
+    <h1 class="dev_h1">What's happening</h1>
+       <div class="left_words">
+    <p>As you roll the ball down the lane, Newton's first law will be applied to the ball. As the ball is rolling down the lane, and striking the pins, you will see Newton's second and Third law in action. Depending on how much the bowling ball weighs, and the speed it is going, you can figure out the force using some simple equations. All this will be introduced in detail on the next page.</p>
+           <video width="800" height="400" id ="first_vid" controls>
+        <source src="assets/media/snips.mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div id="container_footer">
+        <footer>
+
+            <p id="contact" class="features-change">Contact</p>
+
+            <!--DON'T FORGET TO ADD PHP TAG FOR COPYRIGHT DATE AND DON'T FORGET TO ADD COPYRIGHT SYMBOL-->
+
+
+        </footer>
+    </div>
 </body>
 
 <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-<script src="assets/js/responsive-nav.min.js"></script>
+<script src="assets/js/responsive-nav.js"></script>
 <script>
     var nav = responsiveNav(".nav-collapse", { // Selector
-  animate: true, // Boolean: Use CSS3 transitions, true or false
-  transition: 284, // Integer: Speed of the transition, in milliseconds
-  label: "Menu", // String: Label for the navigation toggle
-  insert: "before", // String: Insert the toggle before or after the navigation
-  customToggle: "", // Selector: Specify the ID of a custom toggle
-  closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
-  openPos: "relative", // String: Position of the opened nav, relative or static
-  navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
-  navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
-  jsClass: "js", // String: 'JS enabled' class which is added to  element
-  init: function(){}, // Function: Init callback
-  open: function(){}, // Function: Open callback
-  close: function(){} // Function: Close callback
-});
-
+        animate: true, // Boolean: Use CSS3 transitions, true or false
+        transition: 284, // Integer: Speed of the transition, in milliseconds
+        label: "Menu", // String: Label for the navigation toggle
+        insert: "before", // String: Insert the toggle before or after the navigation
+        customToggle: "", // Selector: Specify the ID of a custom toggle
+        closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+        openPos: "relative", // String: Position of the opened nav, relative or static
+        navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+        navActiveClass: "js-nav-active", // String: Class that is added to <html> element when nav is active
+        jsClass: "js", // String: 'JS enabled' class which is added to <html> element
+        init: function(){}, // Function: Init callback
+        open: function(){}, // Function: Open callback
+        close: function(){} // Function: Close callback
+    });
     </script>
 </html>
